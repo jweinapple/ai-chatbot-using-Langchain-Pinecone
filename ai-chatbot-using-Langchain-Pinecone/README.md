@@ -2,19 +2,17 @@
 
 ## Deployment
 
-#### 3. To install require packages 
+#### 1. To install require packages 
 
 ```bash
   pip install -r requirements.txt
 ```
-#### 4. Replace your own document in **data** folder
+#### 2. Replace pdf_path variable with ./data/articles.pdf location
 
-#### 5. Replace your own OpenAI, Pinecone API Key and Pinecone environment in indexing.py, main.py & utils.py
+#### 3. Replace your own OpenAI API Key in .env file
  - [OpenAI API Key](https://platform.openai.com)
- - [Pinecone](app.pinecone.io)
-   - When you are creating the pinecone index make sure, **Dimensions of the index is 384**
  
-#### 6. Run the web app
+#### 4. Run the web app
 ```bash
   streamlit run main.py
 ```
