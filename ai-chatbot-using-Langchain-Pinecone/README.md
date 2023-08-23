@@ -7,7 +7,7 @@
 ```bash
   pip install -r requirements.txt
 ```
-#### 2. Replace pdf_path variable with ./data/articles.pdf location
+#### 2. Replace pdf_path variable in main.py with ./data/articles.pdf location
 
 #### 3. Replace your own OpenAI API Key in .env file
  - [OpenAI API Key](https://platform.openai.com)
